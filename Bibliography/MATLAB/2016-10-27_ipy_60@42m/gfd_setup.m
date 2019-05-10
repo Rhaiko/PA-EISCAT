@@ -1,0 +1,12 @@
+name_expr= 'ipy';
+expver= 4;
+siteid= 5;
+data_path= 'K:\SRT\F7014R_deleted_20190621\analysis\data\ipy_fixed42p_4.1l_CP@42m';
+result_path= 'K:\SRT\F7014R_deleted_20190621\analysis\results\Group 5\AUTO\';
+t1=[ 2016 10 27 18 0 0];
+t2=[ 2016 10 27 19 0 0];
+rt= 0;
+intper= 60;
+path_exps= 'K:\SRT\F7014R_deleted_20190621\analysis\software\guisdap9\exps\';
+figs=[ 1 1 0 1 1];
+extra= '%a_Offsetppd=8;';
