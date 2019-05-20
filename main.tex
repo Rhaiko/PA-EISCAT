@@ -15,6 +15,7 @@
 \usepackage{physics}
 \usepackage{pdfpages}
 \usepackage{wrapfig}
+\usepackage[justification=centering]{caption}
 
 % Create a separate table for the appendix.
 \usepackage[toc,page]{appendix}
@@ -76,6 +77,9 @@
 %----------------------------------------------------------------------------------------
 %	EISCAT MADRIGAL (2).
 %----------------------------------------------------------------------------------------
+%\newpage
+\input{chapters/madrigal.tex}
+
 
 %----------------------------------------------------------------------------------------
 %	INTERNATIONAL REFERENCE IONOSPHERE (IRI) MODEL (1-2).
@@ -83,8 +87,16 @@
 \newpage 
 \input{chapters/IRI.tex}
 %----------------------------------------------------------------------------------------
-%	DISCUSSION MADRIGAL AND IRI MODEL (1-2).
+%	DISCUSSION MADRIGAL AND IRI MODEL (1).
 %----------------------------------------------------------------------------------------
+\newpage
+\input{chapters/discussion.tex}
+
+%----------------------------------------------------------------------------------------
+%	CONFIRMATION OF PARTICIPATION (1).
+%----------------------------------------------------------------------------------------
+\section{Confirmation of Participation}
+Hereby, A. Hoehne, D. Talavera and E.F.M. Weterings declare to have participated and collaborated in this report.
 
 
 %----------------------------------------------------------------------------------------
